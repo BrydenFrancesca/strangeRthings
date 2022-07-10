@@ -40,6 +40,8 @@ read_links <- function(link){
                   ##Clear up utterances
                   utterance = gsub("^(- |)[A-Z]{2,}?\\:", "", utterance),
                   utterance = gsub("[<].*[>]", "", utterance),
+                  ##Clean up some unicode nonsense
+                  utterance = gsub("\u2019", "'", utterance),
                   utterance = stringr::str_trim(gsub("\\\n", " ", utterance)),
                   #Indicate when utterances are just scene descriptions
                   character = dplyr::case_when(
