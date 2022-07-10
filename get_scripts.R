@@ -54,4 +54,4 @@ read_links <- function(link){
 
 stranger_text <- purrr::map_df(links, read_links)
 
-saveRDS(stranger_text, "stranger_text.rda")
+save(stranger_text, file = "stranger_text.rda")
