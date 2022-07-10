@@ -1,5 +1,7 @@
 library(xml2)
 library(rvest)
+library(dplyr)
+library(stringr)
 
 ##For subtitles
 ##Read in links from URL
@@ -52,4 +54,4 @@ read_links <- function(link){
 
 stranger_text <- purrr::map_df(links, read_links)
 
-
+saveRDS(stranger_text, "stranger_text.rda")
