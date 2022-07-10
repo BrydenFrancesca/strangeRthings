@@ -3,3 +3,4 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 get_scripts.R
+^\.github$
