@@ -44,5 +44,5 @@ All the utterances are broken down by `season`, `episode`, and
 `utterance` which allows for very detailed analysis. Please note that
 the `character` will be denoted `"Scene Directions"` to show scene
 directions, or otherwise non-spoken descriptions. Currently `character`
-descriptions are only available when given in the transcript, so many
-utterances are unassigned.
+descriptions are being added manually, so many utterances are
+unassigned.
