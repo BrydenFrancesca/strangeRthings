@@ -58,9 +58,3 @@ stranger_text <- purrr::map_df(links, read_links)
 
 save(stranger_text, file = "data/stranger_text.rda")
 
-##Write out a CSV so I can manually assign characters.
-#This is a great idea and I will not regret manual data input for 30,000 lines
-
-openxlsx::write.xlsx(strangeRthings::stranger_text,
-                   "data/stranger_text.xlsx",
-                   rowNames = FALSE)
