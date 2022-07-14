@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 
 The strangeRthings package aims to provide tidy format transcripts of [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things) episodes as an R package.
 
-The data originates from [Subslikescript](https://subslikescript.com/series/Stranger_Things-4574334) which contains the transcripts of all episodes in text format. This package presents the transcripts in a tidy tibble format, making them easy to load and use in R.
+The data originates from the English language subtitles of the show. This package presents the transcripts in a tidy tibble format, making them easy to load and use in R.
 
 ## Installation
 
