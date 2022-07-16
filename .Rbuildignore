@@ -6,3 +6,5 @@ get_scripts.R
 ^\.github$
 README.Rmd
 data/stranger_text.xlsx
+get_alt_scripts.R
+get_scripts.R
