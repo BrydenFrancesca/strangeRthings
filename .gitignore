@@ -38,3 +38,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+#Setup scripts
+get_alt_scripts.R
+get_scripts.R
