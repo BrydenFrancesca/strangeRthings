@@ -34,7 +34,7 @@ library(strangeRthings)
 dplyr::glimpse(stranger_text)
 ```
 
-All the utterances are broken down by `season`, `episode`, and `utterance` which allows for very detailed analysis. Please note that the `character` will be denoted `"Scene Directions"` to show scene directions, or otherwise non-spoken descriptions. Currently `character` descriptions are being added manually, so many utterances are unassigned.
+All the utterances are broken down by `season`, `episode`, and `utterance` which allows for very detailed analysis. Please note that the `character` will be denoted `"Scene Directions"` to show scene directions, or otherwise non-spoken descriptions, and `Music` when utterances correspond to music lyrics.
 
 
 

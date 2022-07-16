@@ -5,11 +5,9 @@ The strangeRthings package aims to provide tidy format transcripts of
 [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things)
 episodes as an R package.
 
-The data originates from
-[Subslikescript](https://subslikescript.com/series/Stranger_Things-4574334)
-which contains the transcripts of all episodes in text format. This
-package presents the transcripts in a tidy tibble format, making them
-easy to load and use in R.
+The data originates from the English language subtitles of the show.
+This package presents the transcripts in a tidy tibble format, making
+them easy to load and use in R.
 
 ## Installation
 
@@ -32,7 +30,7 @@ library(strangeRthings)
 dplyr::glimpse(stranger_text)
 ```
 
-    ## Rows: 31,441
+    ## Rows: 40,688
     ## Columns: 5
     ## $ utterance      <chr> "[CRICKETS CHIRPING]", "[ALARM BLARING]", "[PANTING]", …
     ## $ episode_name   <chr> "Chapter One The Vanishing of Will Byers", "Chapter One…
@@ -43,6 +41,5 @@ dplyr::glimpse(stranger_text)
 All the utterances are broken down by `season`, `episode`, and
 `utterance` which allows for very detailed analysis. Please note that
 the `character` will be denoted `"Scene Directions"` to show scene
-directions, or otherwise non-spoken descriptions. Currently `character`
-descriptions are being added manually, so many utterances are
-unassigned.
+directions, or otherwise non-spoken descriptions, and `Music` when
+utterances correspond to music lyrics.
