@@ -6,6 +6,7 @@ Authors@R: person("Francesca", "Bryden", email = "brydenfrancesca@gmail.com", ro
 Description: Transcripts of complete episodes for seasons 1-4 of Stranger Things in tidy data format.
     Data set includes series and episode number, individual utterances, and where given character name.
 License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
